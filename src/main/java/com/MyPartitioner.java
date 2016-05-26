@@ -7,7 +7,6 @@ public class MyPartitioner implements Partitioner {
 	public MyPartitioner(VerifiableProperties props) {
 	}
 
-	@Override
 	public int partition(Object key, int numPartitions) {
 		int partition = 0;
 		String k = (String) key;
